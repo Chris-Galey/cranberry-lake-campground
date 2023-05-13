@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--primary);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+
+  padding: 5rem;
+}
+.footer__nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.list {
+  list-style: none;
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 2rem;
+}

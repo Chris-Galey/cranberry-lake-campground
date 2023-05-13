@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  padding: 10rem 10rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 60% 40%;
+  position: relative;
+}
+.content h2 {
+  margin-bottom: 2rem;
+}
+.content h4 {
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  top: -10%;
+  left: 0;
+  z-index: 111;
+}
+.content h4::after {
+  content: "41.99 N, -85.76 W";
+  position: absolute;
+  top: 0;
+  left: 60%;
+}
+.content p {
+  margin-bottom: 8rem;
+}
+.image {
+  width: 100%;
+}
+.image img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+}

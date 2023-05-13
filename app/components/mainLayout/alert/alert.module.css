@@ -1,0 +1,11 @@
+.alert {
+  padding: 0.5rem 2rem;
+  text-align: center;
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.alert small {
+  font-weight: 600;
+  flex-grow: 1;
+}
