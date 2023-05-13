@@ -1,1 +1,0 @@
-# cranberry-lake-campground
