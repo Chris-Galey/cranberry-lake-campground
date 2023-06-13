@@ -1,8 +1,12 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
 .card {
   height: 50%;
   display: flex;
   flex-direction: row;
-
   border-radius: 1rem;
   overflow: hidden;
 }
@@ -28,5 +32,12 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  gap: 2rem;
+  padding: 5rem;
+}
+.content ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
   gap: 1rem;
 }

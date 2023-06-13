@@ -1,9 +1,8 @@
 .container {
   width: 100%;
-  padding: 10rem 10rem;
   display: flex;
   flex-direction: row;
-  gap: 5rem;
+  gap: 3rem;
 }
 .content {
   display: flex;
@@ -18,9 +17,9 @@
   margin: 0;
   width: 100%;
   position: absolute;
-  top: -10%;
+  top: -8%;
   left: 0;
-  z-index: 111;
+  z-index: -111;
 }
 .content h4::after {
   content: "41.99 N, -85.76 W";
@@ -29,7 +28,7 @@
   left: 60%;
 }
 .content p {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 .image {
   width: 100%;

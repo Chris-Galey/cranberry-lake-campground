@@ -16,7 +16,7 @@ export default function Newsletter() {
 
       <form onSubmit={handleSubmit} className={styles.form}>
         <label>
-          First Name:
+          Name
           <input
             type="text"
             value={firstName}
@@ -24,7 +24,7 @@ export default function Newsletter() {
           />
         </label>
         <label>
-          Email Address:
+          Email
           <input
             type="email"
             value={email}

@@ -32,6 +32,6 @@
 }
 
 .hidden {
-  transform: translate(-50%, -200%);
+  transform: translate(-50%, -300%);
   transition: all 0.4s ease-out;
 }

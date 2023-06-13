@@ -1,27 +1,29 @@
 import styles from "./reserveForm.module.css";
+import ButtonGrn from "@/app/ui/ButtonGrn";
 export default function ReserveForm() {
   return (
     <form className={styles.form}>
-      <div>
-        <label>Type</label>
+      <label className={styles.type}>
+        Type
         <select>
           <option value="bunkhouse">Bunkhouse</option>
           <option value="cabin">Cabin</option>
           <option value="rustic">Rustic</option>
         </select>
-      </div>
-      <div>
-        <label>Start</label>
-        <input className={styles.book_from} type="date" name="book_from" />
-      </div>
+      </label>
 
-      <label>
+      <label className={styles.type}>
+        Start
+        <input className={styles.book_from} type="date" name="book_from" />
+      </label>
+
+      <label className={styles.type}>
         End
         <input className={styles.book_to} type="date" name="book_to" />
       </label>
 
-      <div className={styles.adults}>
-        <label>Adults</label>
+      <label className={styles.type}>
+        Adults
         <select>
           <option value="1">1</option>
           <option value="2">2</option>
@@ -30,9 +32,10 @@ export default function ReserveForm() {
           <option value="5">5</option>
           <option value="6">6</option>
         </select>
-      </div>
-      <div className={styles.children}>
-        <label>Children</label>
+      </label>
+
+      <label className={styles.type}>
+        Children
         <select>
           <option value="1">1</option>
           <option value="2">2</option>
@@ -41,7 +44,10 @@ export default function ReserveForm() {
           <option value="5">5</option>
           <option value="6">6</option>
         </select>
-      </div>
+      </label>
+      <ButtonGrn>
+        <submit className={styles.submit}>Check Availability</submit>
+      </ButtonGrn>
     </form>
   );
 }

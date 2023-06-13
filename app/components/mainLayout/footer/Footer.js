@@ -39,14 +39,16 @@ export default function Footer() {
         <div className={styles.footer__links}>
           <h5>Connect</h5>
           <ul className={styles.list}>
-            <li>x</li>
-            <li>x</li>
+            <li>Instagram</li>
+            <li>Facebook</li>
           </ul>
         </div>
 
         <div className={styles.footer__links}>
-          <li>888.888.8888</li>
-          <p> 123 Main St, Anytown, USA</p>
+          <ul className={styles.list}>
+            <li>888.888.8888</li>
+            <li> 123 Main St, Anytown, USA</li>
+          </ul>
           <div className={styles.map}>Mini Map</div>
         </div>
       </div>

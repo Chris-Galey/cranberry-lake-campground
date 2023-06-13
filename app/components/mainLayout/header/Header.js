@@ -5,6 +5,7 @@ import styles from "./header.module.css";
 export default function Header() {
   const [showHeader, setShowHeader] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [pageTop, setPageTop] = useState(true);
   const header = showHeader
     ? `${styles.header}`
     : `${styles.header} ${styles.hidden}`;
@@ -25,12 +26,7 @@ export default function Header() {
 
   return (
     <header className={header}>
-      <div className={styles.logo}>
-        <img
-          src="https://www.sprucelake.org/wp-content/themes/yboot/assets/img/logos/logo-footer.png"
-          alt="campground logo"
-        />
-      </div>
+      <div className={styles.logo}>Logo Here</div>
       <Nav />
     </header>
   );
