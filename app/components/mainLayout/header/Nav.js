@@ -23,11 +23,17 @@ function Nav() {
           <Link href="/contact">Contact Us</Link>
         </li>
       </ul>
-      <div className={styles.nav__login}>
-        <Link href="/login">Sign In</Link>
-        <Link href="/signup">Sign Up</Link>
-        <Link href="/account">O</Link>
-      </div>
+      <ul className={styles.nav__login}>
+        <li>
+          <Link href="/login">Sign In</Link>
+        </li>
+        <li>
+          <Link href="/signup">Sign Up</Link>
+        </li>
+        <li>
+          <Link href="/account">O</Link>
+        </li>
+      </ul>
     </nav>
   );
 }
